@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(231, 54, 128);
+    background: linear-gradient(90deg, rgba(247, 55, 221, 0.984) 0%, 
+    rgb(188, 144, 230) 35%, rgb(112, 134, 243) 64%, rgba(0,212,255,1) 100%);
+    
+}
+header{
+    position:relative;
+    max-width: 1550px;
+    margin: 0px auto;
+    padding: 15px;
+    background: rgb(49, 47, 47);
+    box-sizing:border-box;
+    border-radius:4px;
+    box-shadow: 5px 5px 8px black;
+}
+.logo
+{
+    
+    height: 10px;
+    font-size: 36px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing:border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+#logo1
+{
+    padding-bottom: 2px;
+    width: 57px;
+    height:70px;
+}
+nav
+{
+    float: right;
+}
+.clearfix
+{
+    clear: both;
+}
+nav ul
+{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a
+{
+    display:block;
+    font-size: larger;
+    margin: 9px 0;
+    padding : 8px 30px;
+    text-decoration: none;
+    color:rgb(231, 54, 128);
+    
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+    background: #baec05;
+    color: rgb(10, 10, 10);
+    transition: 0.5s;
+}
+@media (max-width:1200px)
+{
+    header
+    {
+        margin: 10px;
+    }
+}
+@media (max-width: 768px)
+{
+    menu-toggle
+    {
+        margin: 10px;
+        display: block;
+        width: 40px;
+        height:40px;
+        background:rgb(135, 11, 11);
+        float:right;
+        cursor:pointer;
+        text-align: center;
+        font-size: 30px;
+        color:#069370;
+    }
+    .menu-toggle:before
+    {
+        content:'\f0c9';
+        font-family: fontAwesome;
+        line-height:40px;
+    }
+}
+
+#img1
+{
+    padding: 100px;
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    display: flex;
+    box-shadow:30px;
+    filter: drop-shadow(8px 7px 5px);
+}

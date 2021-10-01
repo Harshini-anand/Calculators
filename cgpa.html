@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+        <title>CGPA CALCULATOR</title>
+        <link rel="stylesheet" href="./CSS/cgpa.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculators</title>
+        <link rel="stylesheet" type="text/css" href="style.css"
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href = "index.html" class="logo"><img src="logo.jpg" id="logo1"></a>
+            <div class="menu-toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="cgpa.html" class="active">CGPA Calculator</a></li>
+                    <li><a href="bill.html">Bill Calculator</a></li>
+                    <li><a href="age.html">Age Calculator</a></li>
+            
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        
+
+
+
+    <h1> CGPA CALCULATOR</h1>
+    <div class="scene">
+        
+        <section class="cal" id="cal" >
+            <div class="calc" id="calc">
+            <div class="nofsem">
+                <label for="semno" class="semleb">Number of Semester : </label>
+                <input type="number" name="sem" id="sem" class="sem" placeholder="Enter no. of Sem" >
+                
+            </div>
+            <div class="submitdiv">
+                <button class="Submit" id="Submit" onclick="clickfun()">Submit</button>
+                
+            </div>
+            </div>
+        </section>
+        <p id="kk"></p>
+    </div>
+    
+
+    <script src="./JS/cgpa.js"></script>
+</body>
+</html>
